@@ -1,0 +1,81 @@
+#a1:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #a1:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #a2:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #a2:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #a2:hover {
+      color: red;
+      background-color: transparent;
+      text-decoration: none;
+  }   
+  body {
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+  }
+  #span1 {
+      font-size:150%;
+      
+  }
+  #span2 {
+      font-size: 150%;
+      margin-left: 6cm;
+  }
+  #span21 {
+      font-size: 120%;
+  }
+  #load1a {
+      font-size: 120%;
+      color: deeppink;
+  }
+  #load {
+      background-color: deeppink;
+      color: white;
+      font-size:150%;
+  }
+  #dvd{
+      text-align: center;
+  }
+  #img1 {
+      width: 400px;
+      height: 225px;
+  }
+  #dvd1 {
+      text-align: center;
+      margin-left: 7cm;
+  }
+  #dvd2 {
+      text-align: left;
+  }
+  #dvdb1 {
+      clear:both;
+      border: solid 1px;
+      text-align: center;
+      background-color: silver;
+      color: slategray;
+      margin-left: 5cm;
+      margin-right: 5cm;
+  }
+  #dvdb2 {
+      clear:both;
+      text-align: center;
+      background-color: deeppink;
+      color: white;
+      margin-left: 5cm;
+      margin-right: 5cm;
+  }

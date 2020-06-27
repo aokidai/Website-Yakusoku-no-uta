@@ -1,0 +1,87 @@
+#a1:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #a1:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #a2:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #a2:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #a2:hover {
+      color: red;
+      background-color: transparent;
+      text-decoration: none;
+  }   
+  body {
+      background-image: url('./images/backgrourd2.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+  }
+  #span1 {
+      font-size:150%;
+      
+  }
+  #span2 {
+      font-size: 150%;
+      margin-left: 6cm;
+  }
+  #span21 {
+      font-size: 120%;
+  }
+  #load1a {
+      font-size: 120%;
+      color: deeppink;
+  }
+  #load {
+      background-color: deeppink;
+      color: white;
+      font-size:150%;
+  }
+  #dvd{
+      text-align: center;
+  }
+  #img1 {
+      width: 400px;
+      height: 225px;
+  }
+  #dvd1 {
+      text-align: center;
+      margin-left: 7cm;
+  }
+  #dvd2 {
+      text-align: left;
+  }
+  #dvda1 {
+      text-align: left;
+      border-color: deeppink;
+      border: solid 3px deeppink;
+      margin-left: 5cm;
+      margin-right: 3cm;
+  }
+  #img2 {
+      width: 200;
+      height: 450px;
+  }
+  #dvd2 {
+      text-align: center;
+      margin-right: 3.5cm;
+  }
+  #dvd3 {
+      text-align: center;
+      margin-left: 8cm;
+  }
+  #dvda2 {
+      color: deeppink;
+  }

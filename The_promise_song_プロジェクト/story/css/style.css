@@ -1,0 +1,43 @@
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  body {
+      background-image: url('./images/backgrourd2.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+  }
+  #span1 {
+      font-size:150%;
+      
+  }
+  #span2 {
+      font-size: 150%;
+      margin-left: 6cm;
+  }
+  #load {
+      background-color: deeppink;
+      color: white;
+      font-size:150%;
+  }
+  #episode {
+      border: white;
+      background-color: darkgray;
+  }
+  #box {
+      border: white;
+      background-color: darkgray;
+  }
+  h3 {
+      text-align: center;
+  }
+  #footer-navi{
+      cursor: pointer;
+  }

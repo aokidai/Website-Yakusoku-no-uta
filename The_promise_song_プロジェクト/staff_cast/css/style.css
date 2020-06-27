@@ -1,0 +1,46 @@
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  body {
+      background-image: url('./images/backgrourd2.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+  }
+  #span1 {
+      font-size:150%;
+      
+  }
+  #load {
+      background-color: deeppink;
+      color: white;
+      font-size:150%;
+  }
+  h3 {
+      text-align: center;
+  }
+  #cast1{
+      text-align: center;
+      margin-right: 3.5cm;
+
+  }
+  #Page_Staffcast .cont-sub-page-label:after{ background-image:url(../images/page-label/staffcast.png); }
+.staffcast-list{ display: flex; flex-wrap: wrap; justify-content: center; margin-bottom: 1em; }
+.staffcast-list > .pos{ width: calc(50% - (3.488% / 2)); margin-right: 3.488%; font-size: 1em; text-align: right; }
+.staffcast-list > .name{ width: calc(50% - (3.488% / 2)); font-weight: 600; }
+.staffcast-list{ display: flex; flex-wrap: wrap; justify-content: center; margin-bottom: 1em; }
+.staffcast-list > .pos{ width: 100%; margin-right: 0; margin-bottom: .3em; font-size: 0.866em; text-align: center; }
+.staffcast-list > .name{ width: 100%; font-size: 0.866em; text-align: center; }
+@media (min-width: 768px) {
+.spbr {display: none;}
+.spbr:before {content: "" ;}}
+.spbr:before {content: "\A" ;white-space: pre ;}
+.pcbr:before {content: "" ;}
+.spbr:before {content: "\A" ;white-space: pre ;}

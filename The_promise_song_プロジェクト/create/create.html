@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Create account | TVアニメ「約束の歌！アイドルになりたい！」公式サイト</title>
+</head>
+<style>
+
+    #center1{
+        text-align: center;
+    }
+</style>
+<script Language="JavaScript">
+    function KiemTraThongtin()
+    {
+        var hoTen=document.getElementById("hoten");
+        if(hoTen.value==""){
+            alert("Vui lòng nhập Họ tên.");
+            hoTen.focus();
+            return false;
+        }
+        var nam=document.getElementById("nam");
+        if(nam.value==""){
+            alert("Hãy nhập năm sinh.");
+            nam.focus();
+            return false;
+        }
+        if(isNaN(nam.value)==true){
+            alert("Năm sinh phải là số.");
+            nam.value="";
+            nam.focus();
+            return false;
+        }
+        var email=document.getElementById("email");
+        re=/\w+@\w+\.\w+/;
+        if(email.value==""){
+            alert("Bạn chưa nhập Email.");
+            email.focus();
+            return false;
+        }
+        else
+            if(re.test(email.value)==false){
+                alert("Email không đúng định dạng!");
+                email.focus();
+                return false;
+            }
+		alert("Đăng ký thành công! Xin chúc mừng.");
+		return true;
+    }
+</script>
+<body align="center" style="background-image: url('../images/bg.jpg');background-attachment: fixed;">
+    <form onSubmit="return KiemTraThongTin()">
+        <div id="mg">
+            <p id="center1"><b>ĐĂNG KÝ THÀNH VIÊN</b></p>
+            <fieldset>
+                <legend><b>Thông tin cá nhân</b></legend>
+                <table>
+                    <tr>
+                        <td>Họ và tên: </td>
+                        <td><input id="hoten" name="txtHoTen" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Ngày sinh: </td>
+                        <td>
+                            <select name="Ngay">
+                                <option value="01"select>01</option>
+                                <option value="02">02</option>
+                            </select>
+                            <span> Tháng </span>
+                            <select name="Thang">
+                                <option value="01"select>01</option>
+                                <option value="02">02</option>
+                            </select>
+                            <span> Năm </span>
+                            <input id="nam" type="text" name="txtNam">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Giới tính: </td>
+                        <td>
+                            <input type="radio" name="radioGioiTinh" value="Nam" checked>Nam
+                            <input type="radio" name="radioGioiTinh" value="Nữ">Nữ
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Địa chỉ: </td>
+                        <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Điện thoại: </td>
+                        <td><input type="tel"></td>
+                    </tr>
+                    <tr>
+                        <td>Email: </td>
+                        <td><input id="email" name="txtEmail" type="text"></td>
+                    </tr>
+                </table>
+            </fieldset>
+            <fieldset>
+                <legend><b>Thông tin đăng nhập</b></legend>
+                <table>
+                    <tr>
+                        <td>Tên đăng nhập: </td>
+                        <td><input id="tendangnhap" name="txtTenDangNHap" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Mật khẩu: </td>
+                        <td><input id="matkhau" namw="txtMatKhau" type="password"></td>
+                    </tr>
+                    <tr>
+                        <td>Nhập lại mật khẩu: </td>
+                        <td><input id="nhaplaimatkhau" name="txtNhapLaiMatKhau" type="password"></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </form>
+        <table align="center">
+            <tr>
+                <td>
+                    <input type="button", onClick ="KiemTraThongtin()" value = "Đăng ký">
+                    <button type="reset">Hủy</button>
+                </td>
+             </tr>
+         </table>
+    </div>
+</body>
+</html>

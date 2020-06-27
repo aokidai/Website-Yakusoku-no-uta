@@ -1,0 +1,68 @@
+#a1:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #a1:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #a2:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #a2:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  #a2:hover {
+      color: red;
+      background-color: transparent;
+      text-decoration: none;
+  }   
+  body {
+      background-image: url('./images/backgrourd2.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+  }
+  #span1 {
+      font-size:150%;
+      
+  }
+  #span2 {
+      font-size: 150%;
+      margin-left: 6cm;
+  }
+  #load {
+      background-color: deeppink;
+      color: white;
+      font-size:150%;
+  }
+  #sdate {
+      text-align: center;
+      margin-right: 10cm;
+  }
+  #imgmo {
+      text-align: center;
+      width: 350px;
+      height: 200px;
+  }
+  #flw-no {
+      text-align: center;
+  }
+  #movie-container {
+      text-align: center;
+      margin-left: 5cm;
+  }
+  #movie {
+      text-align: center;
+      margin-left: 5cm;
+  }
+  #movie2 {
+      text-align: center;
+      margin-right: 3cm;
+  }

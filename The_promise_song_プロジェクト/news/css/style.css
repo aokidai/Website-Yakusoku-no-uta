@@ -1,0 +1,77 @@
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  body {
+      
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+  }
+  #span1 {
+      font-size:150%;
+  }
+  #load {
+      background-color: deeppink;
+      color: white;
+      font-size:150%;
+  }
+  #span21 {
+      color: red;
+  }
+  #span22 {
+      color: greenyellow;
+  }
+  #span23 {
+      color:deepskyblue;
+  }
+  #span24 {
+      color: pink;
+  }
+  #span25 {
+      color: brown;
+  }
+  #sdate {
+      text-align: center;
+      margin-right: 10cm;
+  }
+  #news {
+      text-align: center;
+      margin-left: 5cm;
+  }
+  #news1 {
+      text-align: center;
+      margin-left: 2cm;
+  }
+  #news3 {
+    text-align: center;
+    margin-right: 4cm;
+}
+#scroll-up {
+display: none;
+position: fixed;
+width: 40px;
+height: 40px;
+bottom: 20px;
+right: 20px;
+background-color: #e54e53;
+color: #fff;
+line-height: 40px;
+text-decoration: none;
+text-align: center;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+}
+#scroll-up .ion-angle-up:before {
+font-size: 18px;
+}
+#scroll-up {
+bottom: 30px;
+right: 30px;
+}

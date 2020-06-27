@@ -1,0 +1,56 @@
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  body {
+      background-image: url('./images/backgrourd2.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+  }
+  #span1 {
+      font-size:150%;
+      
+  }
+  #span2 {
+      font-size: 150%;
+      margin-left: 6cm;
+  }
+  #load {
+      background-color: deeppink;
+      color: white;
+      font-size:150%;
+  }
+  h3 {
+      text-align: center;
+  }
+  h4 {
+      color: red;
+      text-align: center;
+      font-size: 100%;
+
+  }
+  #img1 {
+      float: left;
+      width: 300px;
+      height: 400px;
+  }
+  #img2 {
+      float: right;
+      width: 300px;
+      height: 400px;
+      margin-right: 4cm;
+  }
+  #yuika {
+      text-align: center;
+  }
+  #kaede {
+      text-align: center;
+      margin-left: 7.5cm;
+  }
